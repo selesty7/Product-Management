@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "apple",
+      "email": "apple@gmail.com",
+      "mobile": "1111111111",
+      "address": "austria"
+    },
+    {
+      "id": 2,
+      "name": "Hp",
+      "email": "Hp@support.com",
+      "mobile": "789456123",
+      "address": "Toms River"
+    }
+  ],
+  "signup": [
+    {
+      "name": "selesty gupta",
+      "email": "selestygupta@gmail.com",
+      "mobile": "123456789",
+      "password": "12345",
+      "id": 1
+    }
+  ],
+  "favourite": [
+    {
+      "id": 2,
+      "name": "Hp",
+      "email": "Hp@support.com",
+      "mobile": "789456123",
+      "address": "Toms River"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
