@@ -17,6 +17,7 @@ export class ProductDashComponent implements OnInit {
   allProductData: any;
   showAdd!:boolean;
   showBtn!:boolean;
+  p:any;
 
   constructor(private formBuilder: FormBuilder, private api: ApiService,private _http :HttpClient,private router:Router) { }
 

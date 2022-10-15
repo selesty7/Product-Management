@@ -30,7 +30,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let data of allProductData">
+        <tr *ngFor="let data of allProductData | paginate:{itemsPerPage:4, currentPage:p}">
             <td>{{data.id}}</td>
             <td>{{data.name}}</td>
             <td>{{data.email}}</td>
@@ -43,6 +43,7 @@
 
             </td>
         </tr>
+        <pagination-controls (pageChange)="p = $event" class="float-right"></pagination-controls>
     </tbody>
 </table>
 

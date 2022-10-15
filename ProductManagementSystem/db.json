@@ -13,6 +13,27 @@
       "email": "Hp@support.com",
       "mobile": "789456123",
       "address": "Toms River"
+    },
+    {
+      "id": 3,
+      "name": "dell",
+      "email": "dell@support.com",
+      "mobile": "889754313",
+      "address": "abcd"
+    },
+    {
+      "id": 4,
+      "name": "lenovo",
+      "email": "len@gmail.com",
+      "mobile": "8798564123",
+      "address": "lon"
+    },
+    {
+      "id": 5,
+      "name": "asus",
+      "email": "asus@gmail.com",
+      "mobile": "888888888",
+      "address": "asus"
     }
   ],
   "signup": [
